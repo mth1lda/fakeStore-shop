@@ -5,13 +5,15 @@
         <img src="../assets/good.jpg" class="good-card__img" alt="" />
       </div>
 
-      <div class="stars">
+      <!-- <div class="stars">
         <img src="../assets/svg/star.svg" class="stars__star" alt="" />
         <img src="../assets/svg/star.svg" class="stars__star" alt="" />
         <img src="../assets/svg/star.svg" class="stars__star" alt="" />
         <img src="../assets/svg/star.svg" class="stars__star" alt="" />
         <img src="../assets/svg/star.svg" class="stars__star" alt="" />
-      </div>
+      </div> -->
+
+      <star-raiting></star-raiting>
     </div>
     <div class="good-info">
       <h1 class="good-info__name">Название товара</h1>
@@ -40,6 +42,18 @@
     </div>
   </div>
 </template>
+
+<script>
+import StarRaiting from "../components/StarRaiting.vue";
+
+export default {
+  name: "GoodCard",
+  components: {
+    StarRaiting,
+  },
+};
+</script>
+
 
 <style>
 .good-card {

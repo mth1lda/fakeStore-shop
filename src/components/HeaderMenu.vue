@@ -1,9 +1,7 @@
 <template>
   <div class="container">
     <div class="header">
-      <img src="../assets/svg/fake-logo.svg" class="header__img" alt="SP-96" />
-
-      <!-- <img src="svg/SP-96 (logo).svg" class="header__img" alt="SP-96"> -->
+      <img src="../assets/svg/fake-logo.svg" class="header__img" alt="fake" />
 
       <div class="nav">
         <a href="#" class="nav__link">Форум</a>
